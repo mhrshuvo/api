@@ -1,0 +1,14 @@
+GET http://localhost:3000
+
+
+###
+GET http://localhost:3000/socialmedia
+
+###
+POST  http://localhost:3000/socialmedia
+Content-Type: application/json
+
+{
+    "name" : "Website",
+    "link" : "https://mhrshuvo.github.io/ "
+}
